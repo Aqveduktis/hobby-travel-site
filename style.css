@@ -1,0 +1,41 @@
+.carousel{
+  background: #2f4357;
+  
+  margin-top: 20px;
+}
+
+.carousel-item:nth-child(1){
+  background-image: url(media/gardenshadow.jpg);
+  background-position: center;
+  background-repeat: none;
+}
+.carousel-item:nth-child(2){
+  background-image: url(media/aliengarden.jpg);
+  background-position: center;
+  background-repeat: none;
+}
+.carousel-item:nth-child(3){
+  background-image: url(media/huntedhospital.jpg);
+  background-position: center;
+  background-repeat: none;
+}
+.carousel-item{
+  text-align: center;
+  min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.bs-example{
+margin: 20px;
+}
+.myInput{
+  width: 90%;
+  margin: auto;}
+.gallery {
+  margin-right: 0px;
+  margin-left: 0px; 
+
+}
+
+.figure-img{
+max-width: 100%;
+overflow: hidden;
+}
