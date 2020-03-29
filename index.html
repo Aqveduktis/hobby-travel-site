@@ -20,21 +20,21 @@
               <!-- Wrapper for carousel items -->
               <div class="carousel-inner">
                   <div class="carousel-item active">
-                      <div class="carousel-caption d-none d-md-block">
-                          <h5>First slide label</h5>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      <div class="carousel-caption d-none d-sm-block">
+                          <h5>Cern</h5>
+                          <p>With back stage passes you can see the most amazing thing.</p>
                       </div>
                   </div>
                   <div class="carousel-item">
-                      <div class="carousel-caption d-none d-md-block">
-                          <h5>Second slide label</h5>
-                          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                      <div class="carousel-caption d-none d-sm-block">
+                          <h5>Redwood Forrest</h5>
+                          <p>ravel to the forrest and see some animals.</p>
                       </div>
                   </div>
                   <div class="carousel-item">
-                      <div class="carousel-caption d-none d-md-block">
-                          <h5>First slide label</h5>
-                          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                      <div class="carousel-caption d-none d-sm-block">
+                          <h5>Lovly Hostel</h5>
+                          <p>This resort will make you feel so relaxed.</p>
                       </div>
                   </div>
               </div>
@@ -51,36 +51,36 @@
 <div class="container">
   <div class="row center-box">  
     <div class="col-md-6 myDiv">
-      <form>
+      <form action="https://httpbin.org/anything" method="POST">
         <div class="form-group">
           <label for="inputName">Name</label>
           <input type="text" class="form-control" id="inputName" placeholder="Name">
         </div>
         <div class="form-group">
             <label for="inputEmail">Email</label>
-            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
         </div>
         <div class="form-group">
             <label for="inputPassword">Password</label>
-            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
         </div>
         <label>
           <p>Which price level are you?</p>
         <div class="custom-control custom-radio custom-control-inline"> 
-          <input type="radio" class="custom-control-input radio radio-child" name="customRadio" id="customRadio1">
+          <input type="radio" class="custom-control-input radio radio-child" name="customRadio" value="child" id="customRadio1">
           <label class="custom-control-label" for="customRadio1">Child</label>
       </div>
       <div class="custom-control custom-radio custom-control-inline">
-          <input type="radio" class="custom-control-input radio radio-adult" name="customRadio" id="customRadio2" checked>
+          <input type="radio" class="custom-control-input radio radio-adult" name="customRadio" id="customRadio2" value="adult" checked>
           <label class="custom-control-label" for="customRadio2">Adult</label>
       </div>
       <div class="custom-control custom-radio custom-control-inline">
-        <input type="radio" class="custom-control-input radio radio-retired" name="customRadio" id="customRadio3" checked>
+        <input type="radio" class="custom-control-input radio radio-retired" name="customRadio" value="retired" id="customRadio3" checked>
         <label class="custom-control-label" for="customRadio3">Retired</label>
       </div>
     </label>
         <div class="form-group">
-            <label class="form-check-label"><input type="checkbox"> Remember me</label>
+            <label class="form-check-label"><input type="checkbox" value="rememberMe"> Remember me</label>
         </div>
         <button type="submit" class="btn btn-primary">Sign in</button>
     </form>
@@ -103,7 +103,7 @@
         <div class="card">
             <div class="card-header" id="headingTwo">
                 <h2 class="mb-0">
-                    <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"><i class="fa fa-plus"></i> What is Bootstrap?</button>
+                    <button type="submit" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"><i class="fa fa-plus"></i> What is Bootstrap?</button>
                 </h2>
             </div>
             <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -135,11 +135,11 @@
   
       <div class="row footer">
         <div class ="col-6 col-sm-6 figure">
-        <p>first thing</p>
+        <p>We had a lovely vacation.</p>
         <img class="icon" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss3.jpg">
         </div>
         <div class ="col-6 col-sm-6 figure">
-          <p>second thing</p>
+          <p>I will never forget this trip.</p>
           <img class="icon" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss2.jpg">
         </div>
        

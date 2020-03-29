@@ -1,3 +1,7 @@
+body {
+  background-color: #2f4357;
+}
+
 .carousel{
   background: #2f4357;
   
@@ -69,6 +73,10 @@ margin: 20px;
   height: 100px;
   margin: 1em auto;
   background-color: paleturquoise;
+  background-image: url('media/TheMountain.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   
@@ -76,6 +84,8 @@ margin: 20px;
 .figure {
   display: flex;
   justify-content: space-around;
+  color: white;
+  text-shadow: 1px 1px 2px black;
   
 }
 .icon {
