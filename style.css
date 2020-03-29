@@ -25,7 +25,7 @@
 }
 .center-box {
   background-color: #2f4357;
-  min-height: 600px;
+  padding: 1em;
   height: auto;
 }
 /* This is the default state */
@@ -64,9 +64,24 @@ margin: 20px;
   margin-left: 0px; 
 
 }
-
+.footer {
+  width: 93vw;
+  height: 100px;
+  margin: 1em auto;
+  background-color: paleturquoise;
+  display: flex;
+  align-items: center;
+  
+}
+.figure {
+  display: flex;
+  justify-content: space-around;
+  
+}
 .icon {
   width: 50px;
   height: 50px;
   object-fit: cover;
+  border: 1px solid black;
+  border-radius: 50%;
 }
